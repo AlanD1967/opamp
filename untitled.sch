@@ -1,0 +1,821 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 12695 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1200 2300 2900 2300
+Wire Wire Line
+	2900 2300 3300 2300
+Wire Wire Line
+	3300 2300 5700 2300
+Wire Wire Line
+	5700 2300 6500 2300
+Wire Wire Line
+	6500 2300 8900 2300
+Wire Wire Line
+	8900 2300 10900 2300
+Wire Wire Line
+	3300 2600 3300 2300
+Wire Wire Line
+	5700 2600 5700 2300
+Wire Wire Line
+	6500 2600 6500 2300
+Wire Wire Line
+	8900 2600 8900 2300
+Wire Wire Line
+	10900 3000 10900 2300
+Wire Wire Line
+	2900 4600 2900 2300
+Connection ~ 3300 2300
+Connection ~ 5700 2300
+Connection ~ 6500 2300
+Connection ~ 8900 2300
+Connection ~ 2900 2300
+Text Label 1300 2300 0    70   ~ 0
++VCC
+Wire Wire Line
+	1500 650  1765 650 
+Text Label 1505 650  0    70   ~ 0
++VCC
+Wire Wire Line
+	3300 3000 3300 3100
+Wire Wire Line
+	3300 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 2800
+Wire Wire Line
+	3700 2800 3500 2800
+Wire Wire Line
+	3300 3100 3300 3300
+Wire Wire Line
+	3300 3300 2400 3300
+Wire Wire Line
+	4200 3300 3300 3300
+Wire Wire Line
+	4200 3300 4200 3600
+Wire Wire Line
+	3700 2800 5500 2800
+Wire Wire Line
+	2400 3600 2400 3300
+Connection ~ 3300 3100
+Connection ~ 3700 2800
+Connection ~ 3300 3300
+Wire Wire Line
+	2600 4500 3900 4500
+Wire Wire Line
+	3900 4500 4000 4500
+Wire Wire Line
+	3900 4500 3900 4900
+Wire Wire Line
+	5700 3000 5700 4900
+Wire Wire Line
+	5700 4900 5700 5000
+Wire Wire Line
+	3900 4900 5700 4900
+Connection ~ 3900 4500
+Connection ~ 5700 4900
+Wire Wire Line
+	2400 4300 2400 4000
+Wire Wire Line
+	4200 4000 4200 4300
+Wire Wire Line
+	2200 3800 1300 3800
+Text Label 1400 3800 0    70   ~ 0
+INP
+Wire Wire Line
+	1125 650  820  650 
+Text Label 900  650  0    70   ~ 0
+INP
+Wire Wire Line
+	4400 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 4100
+Wire Wire Line
+	4500 4100 1300 4100
+Text Label 1400 4100 0    70   ~ 0
+INM
+Wire Wire Line
+	1145 950  825  950 
+Text Label 915  950  0    70   ~ 0
+INM
+Wire Wire Line
+	2600 5200 2900 5200
+Wire Wire Line
+	2900 5200 3300 5200
+Wire Wire Line
+	3300 5200 4000 5200
+Wire Wire Line
+	2900 5000 2900 5200
+Wire Wire Line
+	3300 5700 3300 5200
+Connection ~ 2900 5200
+Connection ~ 3300 5200
+Wire Wire Line
+	2400 4700 2400 4800
+Wire Wire Line
+	2400 4800 2400 5000
+Wire Wire Line
+	2700 4800 2400 4800
+Connection ~ 2400 4800
+Wire Wire Line
+	4200 5000 4200 4800
+Wire Wire Line
+	4200 4800 4200 4700
+Wire Wire Line
+	4200 4800 7900 4800
+Wire Wire Line
+	7900 4800 8000 4800
+Wire Wire Line
+	8000 4800 8300 4800
+Wire Wire Line
+	7900 5300 7900 4800
+Wire Wire Line
+	8000 4200 8000 4800
+Connection ~ 4200 4800
+Connection ~ 7900 4800
+Connection ~ 8000 4800
+Wire Wire Line
+	2400 5700 2400 5450
+Wire Wire Line
+	2400 5450 2400 5400
+Wire Wire Line
+	2400 5450 1300 5450
+Connection ~ 2400 5450
+Text Label 1400 5450 0    70   ~ 0
+OFFSET1
+Wire Wire Line
+	4200 5700 4200 5600
+Wire Wire Line
+	4200 5600 4200 5400
+Wire Wire Line
+	4200 5600 1300 5600
+Connection ~ 4200 5600
+Text Label 1400 5600 0    70   ~ 0
+OFFSET2
+Wire Wire Line
+	4200 6100 4200 6200
+Wire Wire Line
+	4200 6200 3300 6200
+Wire Wire Line
+	3300 6200 2400 6200
+Wire Wire Line
+	2400 6200 1300 6200
+Wire Wire Line
+	2400 6100 2400 6200
+Wire Wire Line
+	3300 6100 3300 6200
+Wire Wire Line
+	4200 6200 5700 6200
+Wire Wire Line
+	5700 6200 6500 6200
+Wire Wire Line
+	6500 6200 7900 6200
+Wire Wire Line
+	7900 6200 8500 6200
+Wire Wire Line
+	8500 6200 8900 6200
+Wire Wire Line
+	8900 6200 10900 6200
+Wire Wire Line
+	5700 6000 5700 6200
+Wire Wire Line
+	6500 5400 6500 6200
+Wire Wire Line
+	7900 5700 7900 6200
+Wire Wire Line
+	8500 6000 8500 6200
+Wire Wire Line
+	8900 6000 8900 6200
+Wire Wire Line
+	10900 5100 10900 6200
+Connection ~ 2400 6200
+Connection ~ 3300 6200
+Connection ~ 4200 6200
+Connection ~ 5700 6200
+Connection ~ 6500 6200
+Connection ~ 7900 6200
+Connection ~ 8500 6200
+Connection ~ 8900 6200
+Text Label 1500 6200 0    70   ~ 0
+-VCC
+Wire Wire Line
+	1160 1215 830  1215
+Text Label 850  1215 0    70   ~ 0
+-VCC
+Wire Wire Line
+	5700 5600 5700 5400
+Wire Wire Line
+	6300 5200 6100 5200
+Wire Wire Line
+	6100 5200 5900 5200
+Wire Wire Line
+	6100 5200 6100 4900
+Wire Wire Line
+	6100 4900 6500 4900
+Wire Wire Line
+	6500 4900 6500 5000
+Wire Wire Line
+	6500 3800 6500 4900
+Connection ~ 6100 5200
+Connection ~ 6500 4900
+Wire Wire Line
+	6500 3400 6500 3100
+Wire Wire Line
+	6500 3100 6500 3000
+Wire Wire Line
+	6700 2800 6900 2800
+Wire Wire Line
+	6900 2800 6900 3100
+Wire Wire Line
+	6900 3100 6500 3100
+Wire Wire Line
+	6900 2800 8700 2800
+Connection ~ 6500 3100
+Connection ~ 6900 2800
+Wire Wire Line
+	8500 5000 8500 5200
+Wire Wire Line
+	8500 5200 8500 5600
+Wire Wire Line
+	8700 5200 8500 5200
+Connection ~ 8500 5200
+Wire Wire Line
+	8900 5400 8900 5500
+Wire Wire Line
+	8900 5500 8900 5600
+Wire Wire Line
+	8100 5500 8900 5500
+Connection ~ 8900 5500
+Wire Wire Line
+	8500 4600 8500 4400
+Wire Wire Line
+	8500 4400 8900 4400
+Wire Wire Line
+	8900 4400 8900 4900
+Wire Wire Line
+	8900 4900 8900 5000
+Wire Wire Line
+	8900 4900 10700 4900
+Wire Wire Line
+	8900 4400 8900 4300
+Wire Wire Line
+	8900 4300 8900 3900
+Wire Wire Line
+	8500 4200 8500 4300
+Wire Wire Line
+	8500 4300 8900 4300
+Connection ~ 8900 4900
+Connection ~ 8900 4400
+Connection ~ 8900 4300
+Wire Wire Line
+	8900 3500 8900 3200
+Wire Wire Line
+	8900 3200 8900 3100
+Wire Wire Line
+	8900 3100 8900 3000
+Wire Wire Line
+	8900 3200 10500 3200
+Wire Wire Line
+	10500 3200 10700 3200
+Wire Wire Line
+	8500 3200 8500 3100
+Wire Wire Line
+	8500 3100 8900 3100
+Wire Wire Line
+	8500 3100 8000 3100
+Wire Wire Line
+	8000 3100 8000 3900
+Wire Wire Line
+	10500 3300 10500 3200
+Connection ~ 8900 3200
+Connection ~ 8900 3100
+Connection ~ 8500 3100
+Connection ~ 10500 3200
+Wire Wire Line
+	8700 3700 8500 3700
+Wire Wire Line
+	8500 3700 8500 3800
+Wire Wire Line
+	8500 3600 8500 3700
+Connection ~ 8500 3700
+Wire Wire Line
+	10900 4600 10900 4700
+Wire Wire Line
+	10900 4000 10900 4100
+Wire Wire Line
+	10900 4100 10900 4150
+Wire Wire Line
+	10900 4150 10900 4200
+Wire Wire Line
+	10500 3700 10500 4100
+Wire Wire Line
+	10500 4100 10900 4100
+Wire Wire Line
+	10900 4150 11900 4150
+Connection ~ 10900 4100
+Connection ~ 10900 4150
+Text Label 11600 4150 0    70   ~ 0
+OP
+Wire Wire Line
+	1500 950  1760 950 
+Text Label 1570 950  0    70   ~ 0
+OP
+Wire Wire Line
+	10900 3600 10900 3500
+Wire Wire Line
+	10900 3500 10900 3400
+Wire Wire Line
+	10700 3500 10900 3500
+Connection ~ 10900 3500
+$Comp
+L untitled-eagle-import:2N3904 Q11
+U 1 0 E2F85110
+P 6400 5200
+F 0 "Q11" H 6600 5300 59  0000 L BNN
+F 1 "2N3904" H 6600 5200 59  0000 L BNN
+F 2 "untitled:TO92D" H 6400 5200 50  0001 C CNN
+F 3 "" H 6400 5200 50  0001 C CNN
+	1    6400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q9
+U 1 0 EFC16039
+P 5600 2800
+F 0 "Q9" H 5800 3000 59  0000 L BNN
+F 1 "2N3906" H 5800 2900 59  0000 L BNN
+F 2 "untitled:TO92D" H 5600 2800 50  0001 C CNN
+F 3 "" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R4
+U 1 0 37AA4044
+P 5700 5800
+F 0 "R4" H 5550 5859 59  0000 L BNN
+F 1 "4k7" H 5550 5670 59  0000 L BNN
+F 2 "untitled:0204_5" H 5700 5800 50  0001 C CNN
+F 3 "" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q8
+U 1 0 2D2CC871
+P 3400 2800
+F 0 "Q8" H 3600 3000 59  0000 L BNN
+F 1 "2N3906" H 3600 2900 59  0000 L BNN
+F 2 "untitled:TO92D" H 3400 2800 50  0001 C CNN
+F 3 "" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q1
+U 1 0 22BC07EB
+P 2300 3800
+F 0 "Q1" H 2500 3900 59  0000 L BNN
+F 1 "2N3904" H 2500 3800 59  0000 L BNN
+F 2 "untitled:TO92D" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q2
+U 1 0 FC4D4FCD
+P 4300 3800
+F 0 "Q2" H 4500 3900 59  0000 L BNN
+F 1 "2N3904" H 4500 3800 59  0000 L BNN
+F 2 "untitled:TO92D" H 4300 3800 50  0001 C CNN
+F 3 "" H 4300 3800 50  0001 C CNN
+	1    4300 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q3
+U 1 0 9A1C1EBA
+P 2500 4500
+F 0 "Q3" H 2700 4700 59  0000 L BNN
+F 1 "2N3906" H 2700 4600 59  0000 L BNN
+F 2 "untitled:TO92D" H 2500 4500 50  0001 C CNN
+F 3 "" H 2500 4500 50  0001 C CNN
+	1    2500 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q4
+U 1 0 22452E8B
+P 4100 4500
+F 0 "Q4" H 4300 4700 59  0000 L BNN
+F 1 "2N3906" H 4300 4600 59  0000 L BNN
+F 2 "untitled:TO92D" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q7
+U 1 0 6A33A87D
+P 2800 4800
+F 0 "Q7" H 3000 4900 59  0000 L BNN
+F 1 "2N3904" H 3000 4800 59  0000 L BNN
+F 2 "untitled:TO92D" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q6
+U 1 0 97620144
+P 4100 5200
+F 0 "Q6" H 4300 5300 59  0000 L BNN
+F 1 "2N3904" H 4300 5200 59  0000 L BNN
+F 2 "untitled:TO92D" H 4100 5200 50  0001 C CNN
+F 3 "" H 4100 5200 50  0001 C CNN
+	1    4100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q5
+U 1 0 A335FF6A
+P 2500 5200
+F 0 "Q5" H 2700 5300 59  0000 L BNN
+F 1 "2N3904" H 2700 5200 59  0000 L BNN
+F 2 "untitled:TO92D" H 2500 5200 50  0001 C CNN
+F 3 "" H 2500 5200 50  0001 C CNN
+	1    2500 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R1
+U 1 0 DDF01354
+P 2400 5900
+F 0 "R1" H 2250 5959 59  0000 L BNN
+F 1 "1k" H 2250 5770 59  0000 L BNN
+F 2 "untitled:0204_5" H 2400 5900 50  0001 C CNN
+F 3 "" H 2400 5900 50  0001 C CNN
+	1    2400 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R2
+U 1 0 0CC8F4E9
+P 4200 5900
+F 0 "R2" H 4050 5959 59  0000 L BNN
+F 1 "1k" H 4050 5770 59  0000 L BNN
+F 2 "untitled:0204_5" H 4200 5900 50  0001 C CNN
+F 3 "" H 4200 5900 50  0001 C CNN
+	1    4200 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R3
+U 1 0 F7CAA4A8
+P 3300 5900
+F 0 "R3" H 3150 5959 59  0000 L BNN
+F 1 "51k" H 3150 5770 59  0000 L BNN
+F 2 "untitled:0204_5" H 3300 5900 50  0001 C CNN
+F 3 "" H 3300 5900 50  0001 C CNN
+	1    3300 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q10
+U 1 0 E6D570CA
+P 5800 5200
+F 0 "Q10" H 6000 5300 59  0000 L BNN
+F 1 "2N3904" H 6000 5200 59  0000 L BNN
+F 2 "untitled:TO92D" H 5800 5200 50  0001 C CNN
+F 3 "" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q12
+U 1 0 EEC7CFE2
+P 6600 2800
+F 0 "Q12" H 6400 3000 59  0000 L BNN
+F 1 "2N3906" H 6200 2900 59  0000 L BNN
+F 2 "untitled:TO92D" H 6600 2800 50  0001 C CNN
+F 3 "" H 6600 2800 50  0001 C CNN
+	1    6600 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R5
+U 1 0 9F90AFD7
+P 6500 3600
+F 0 "R5" H 6350 3659 59  0000 L BNN
+F 1 "39k" H 6350 3470 59  0000 L BNN
+F 2 "untitled:0204_5" H 6500 3600 50  0001 C CNN
+F 3 "" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q15
+U 1 0 631C7642
+P 8400 4800
+F 0 "Q15" H 8600 4900 59  0000 L BNN
+F 1 "2N3904" H 8600 4800 59  0000 L BNN
+F 2 "untitled:TO92D" H 8400 4800 50  0001 C CNN
+F 3 "" H 8400 4800 50  0001 C CNN
+	1    8400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q17
+U 1 0 6F80B70B
+P 8800 5200
+F 0 "Q17" H 9000 5300 59  0000 L BNN
+F 1 "2N3904" H 9000 5200 59  0000 L BNN
+F 2 "untitled:TO92D" H 8800 5200 50  0001 C CNN
+F 3 "" H 8800 5200 50  0001 C CNN
+	1    8800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R11
+U 1 0 563BD6B5
+P 8900 5800
+F 0 "R11" H 8750 5859 59  0000 L BNN
+F 1 "51r" H 8750 5670 59  0000 L BNN
+F 2 "untitled:0204_5" H 8900 5800 50  0001 C CNN
+F 3 "" H 8900 5800 50  0001 C CNN
+	1    8900 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R12
+U 1 0 A5A30F4E
+P 8500 5800
+F 0 "R12" H 8350 5859 59  0000 L BNN
+F 1 "51k" H 8350 5670 59  0000 L BNN
+F 2 "untitled:0204_5" H 8500 5800 50  0001 C CNN
+F 3 "" H 8500 5800 50  0001 C CNN
+	1    8500 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q22
+U 1 0 4C99944F
+P 8000 5500
+F 0 "Q22" H 8200 5600 59  0000 L BNN
+F 1 "2N3904" H 8200 5500 59  0000 L BNN
+F 2 "untitled:TO92D" H 8000 5500 50  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+	1    8000 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q13
+U 1 0 114F8CEE
+P 8800 2800
+F 0 "Q13" H 9000 3000 59  0000 L BNN
+F 1 "2N3906" H 9000 2900 59  0000 L BNN
+F 2 "untitled:TO92D" H 8800 2800 50  0001 C CNN
+F 3 "" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q16
+U 1 0 B7871434
+P 8800 3700
+F 0 "Q16" H 9000 3800 59  0000 L BNN
+F 1 "2N3904" H 9000 3700 59  0000 L BNN
+F 2 "untitled:TO92D" H 8800 3700 50  0001 C CNN
+F 3 "" H 8800 3700 50  0001 C CNN
+	1    8800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R8
+U 1 0 E09C9CEC
+P 8500 4000
+F 0 "R8" H 8350 4059 59  0000 L BNN
+F 1 "7k5" H 8350 3870 59  0000 L BNN
+F 2 "untitled:0204_5" H 8500 4000 50  0001 C CNN
+F 3 "" H 8500 4000 50  0001 C CNN
+	1    8500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R7
+U 1 0 6B4F0CAD
+P 8500 3400
+F 0 "R7" H 8350 3459 59  0000 L BNN
+F 1 "4k7" H 8350 3270 59  0000 L BNN
+F 2 "untitled:0204_5" H 8500 3400 50  0001 C CNN
+F 3 "" H 8500 3400 50  0001 C CNN
+	1    8500 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:C-EU025-024X044 C1
+U 1 0 14D99919
+P 8000 4000
+F 0 "C1" H 8060 4015 59  0000 L BNN
+F 1 "33p" H 8060 3815 59  0000 L BNN
+F 2 "untitled:C025-024X044" H 8000 4000 50  0001 C CNN
+F 3 "" H 8000 4000 50  0001 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3906 Q20
+U 1 0 4014949E
+P 10800 4900
+F 0 "Q20" H 11000 5100 59  0000 L BNN
+F 1 "2N3906" H 11000 5000 59  0000 L BNN
+F 2 "untitled:TO92D" H 10800 4900 50  0001 C CNN
+F 3 "" H 10800 4900 50  0001 C CNN
+	1    10800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R10
+U 1 0 A015A648
+P 10900 4400
+F 0 "R10" H 10750 4459 59  0000 L BNN
+F 1 "51r" H 10750 4270 59  0000 L BNN
+F 2 "untitled:0204_5" H 10900 4400 50  0001 C CNN
+F 3 "" H 10900 4400 50  0001 C CNN
+	1    10900 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:R-EU_0204_5 R9
+U 1 0 1FB31335
+P 10900 3800
+F 0 "R9" H 10750 3859 59  0000 L BNN
+F 1 "24r" H 10750 3670 59  0000 L BNN
+F 2 "untitled:0204_5" H 10900 3800 50  0001 C CNN
+F 3 "" H 10900 3800 50  0001 C CNN
+	1    10900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q14
+U 1 0 2F81354A
+P 10800 3200
+F 0 "Q14" H 11000 3300 59  0000 L BNN
+F 1 "2N3904" H 11000 3200 59  0000 L BNN
+F 2 "untitled:TO92D" H 10800 3200 50  0001 C CNN
+F 3 "" H 10800 3200 50  0001 C CNN
+	1    10800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:2N3904 Q19
+U 1 0 72C3B26A
+P 10600 3500
+F 0 "Q19" H 10800 3600 59  0000 L BNN
+F 1 "2N3904" H 10800 3500 59  0000 L BNN
+F 2 "untitled:TO92D" H 10600 3500 50  0001 C CNN
+F 3 "" H 10600 3500 50  0001 C CNN
+	1    10600 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X2
+U 1 0 EE6A8C5B
+P 720 650
+F 0 "X2" H 600 680 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 620 750 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 720 650 50  0001 C CNN
+F 3 "" H 720 650 50  0001 C CNN
+	1    720  650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X3
+U 1 0 D0EFEB30
+P 725 950
+F 0 "X3" H 605 980 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 625 1050 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 725 950 50  0001 C CNN
+F 3 "" H 725 950 50  0001 C CNN
+	1    725  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X4
+U 1 0 38D8100C
+P 730 1215
+F 0 "X4" H 610 1245 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 630 1315 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 730 1215 50  0001 C CNN
+F 3 "" H 730 1215 50  0001 C CNN
+	1    730  1215
+	1    0    0    -1  
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X6
+U 1 0 5678603C
+P 1860 950
+F 0 "X6" H 1740 980 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 1760 1050 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 1860 950 50  0001 C CNN
+F 3 "" H 1860 950 50  0001 C CNN
+	1    1860 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X7
+U 1 0 E2351FF5
+P 1865 650
+F 0 "X7" H 1745 680 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 1765 750 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 1865 650 50  0001 C CNN
+F 3 "" H 1865 650 50  0001 C CNN
+	1    1865 650 
+	-1   0    0    1   
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X8
+U 1 0 EA8F4CDD
+P 1860 355
+F 0 "X8" H 1740 385 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 1760 455 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 1860 355 50  0001 C CNN
+F 3 "" H 1860 355 50  0001 C CNN
+	1    1860 355 
+	-1   0    0    1   
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X5
+U 1 0 2CAC95E3
+P 1870 1225
+F 0 "X5" H 1750 1255 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 1770 1325 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 1870 1225 50  0001 C CNN
+F 3 "" H 1870 1225 50  0001 C CNN
+	1    1870 1225
+	-1   0    0    1   
+$EndComp
+$Comp
+L untitled-eagle-import:SSW-101-02-S-S X1
+U 1 0 8679BB61
+P 720 365
+F 0 "X1" H 600 395 51  0000 R TNN
+F 1 "SSW-101-02-S-S" H 620 465 59  0001 L BNN
+F 2 "untitled:SSW-101-02-S-S" H 720 365 50  0001 C CNN
+F 3 "" H 720 365 50  0001 C CNN
+	1    720  365 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5000 1800 5000 7300
+Wire Notes Line
+	7400 1800 7400 7300
+Wire Notes Line
+	9900 1800 9900 7300
+Wire Notes Line
+	1850 1800 1850 7300
+Wire Notes Line
+	5100 1800 5100 7300
+Wire Notes Line
+	7300 1800 7300 7300
+Wire Notes Line
+	9750 1800 9750 7300
+Wire Notes Line
+	11500 1800 11500 7300
+Wire Notes Line
+	1850 1800 5000 1800
+Wire Notes Line
+	1850 7300 5000 7300
+Wire Notes Line
+	5100 7300 7300 7300
+Wire Notes Line
+	5100 1800 7300 1800
+Wire Notes Line
+	7400 1800 9750 1800
+Wire Notes Line
+	9900 1800 11500 1800
+Wire Notes Line
+	7400 7300 9750 7300
+Wire Notes Line
+	9900 7300 11500 7300
+Text Notes 2900 2100 0    59   ~ 0
+Differential AMP
+Text Notes 5700 2100 0    59   ~ 0
+BIAS generator
+Text Notes 8200 2100 0    59   ~ 0
+Gain Stage
+Text Notes 10350 2100 0    59   ~ 0
+Output Stage
+$EndSCHEMATC
